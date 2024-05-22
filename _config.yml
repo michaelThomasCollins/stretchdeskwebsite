@@ -33,15 +33,15 @@ mastodon_link:
 # Feature List                            Edit, add or remove features to be presented.
 features:
   - title: Simple Stretches!
-    description: Lot's of easy to do stretches for all levels of flexibility, that can be easily performed at a desk.
+    description: Lot's of easy to do stretches for all levels of flexibility that can be easily performed at a desk.
     fontawesome_icon_name: heart
 
   - title: Customizable Routines!
-    description: Fully customizable routines that are constantly randomized, keeping your mini workouts unique and interesting.
+    description: Fully customizable routines that are constantly randomized; keeping your mini workouts unique and interesting.
     fontawesome_icon_name: magic
 
   - title: Hourly Reminders!
-    description: Reminders throughout the day to make sure you keep your body in check.
+    description: Reminders throughout the day to make sure you keep your body in check!
     fontawesome_icon_name: stopwatch
 
   - title: Plenty of Choice!
@@ -50,7 +50,7 @@ features:
 
   - title: Premium Features!
     description: Ad free experience and even more stretches to perform, with more features coming soon.
-    fontawesome_icon_name: sack-dollar
+    fontawesome_icon_name: coins
 
 # Theme Settings
 topbar_color: "#000000"
