@@ -16,7 +16,7 @@ app_name: StretchDesk # Automatically populates if not set and if iOS app ID is 
 app_price: Free # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description: A Stretching App For The Office!
 
-enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
+enable_smart_app_banner: false # Set to true to show a smart app banner at top of page on mobile devices.
 
 # Information About Yourself
 your_name: CodeGoblin Ltd
@@ -33,24 +33,24 @@ mastodon_link:
 # Feature List                            Edit, add or remove features to be presented.
 features:
   - title: Simple Stretches!
-    description: Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
+    description: Lot's of easy to do stretches for all levels of flexibility, that can be easily performed at a desk.
     fontawesome_icon_name: heart
 
   - title: Customizable Routines!
-    description: Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
+    description: Fully customizable routines that are constantly randomized, keeping your mini workouts unique and interesting.
     fontawesome_icon_name: magic
 
   - title: Hourly Reminders!
-    description: Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name: magic
+    description: Reminders throughout the day to make sure you keep your body in check.
+    fontawesome_icon_name: stopwatch
 
   - title: Plenty of Choice!
-    description: Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name: magic
+    description: Stretches for every muscle group to keep your body guessing and your brain engaged.
+    fontawesome_icon_name: list
 
   - title: Premium Features!
-    description: Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name: magic
+    description: Ad free experience and even more stretches to perform, with more features coming soon.
+    fontawesome_icon_name: sack-dollar
 
 # Theme Settings
 topbar_color: "#000000"
