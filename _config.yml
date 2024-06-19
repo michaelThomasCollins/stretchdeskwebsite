@@ -14,7 +14,7 @@ presskit_download_link:
 app_icon: assets/logo.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name: StretchDesk # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price: Free # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description: A Stretching App For The Office!
+app_description: The Desk Friendly Stretching App!
 
 enable_smart_app_banner: false # Set to true to show a smart app banner at top of page on mobile devices.
 
