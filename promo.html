@@ -4,6 +4,23 @@
 
 <!DOCTYPE html>
 <html lang="en-us">
+<body>
 
+<h1>Redeem For Apple Store</h1>
+<a id="appleurl" href="https://apps.apple.com/gb/app/stretchdesk/id6503408180">Redeem From Apple App Store</a>
 
+<h1>Redeem For Google Play</h1>
+<p id="gpcode">Enter the code by following the example below:</p>
+<video id="vid" class="screenvideo" autoplay="autoplay" muted="muted" playsinline="playsinline" loop="loop" controls="controls">
+    <source src="movie.mp4" type="video/mp4">                          </video>
+    <p></p>
+<a href="https://stretchdesk.co.uk/">Home</a>
+</body>
 </html>
+<script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const code = urlParams.get('code');
+    document.getElementById("appleurl").setAttribute("href", "https://apps.apple.com/redeem?ctx=offercodes&id=6503408180&code=" + code);
+    document.getElementById("gpcode").innerHTML = "Enter Code " + code + " by following the example below"
+</script>
