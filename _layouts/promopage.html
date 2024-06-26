@@ -5,7 +5,7 @@
 
 <body>
     <div class="imageWrapper">
-    <div class="headerBackground">
+    <!-- <div class="headerBackground"> -->
                 <div class="container">
                     
                     {% include header.html %}
@@ -75,7 +75,6 @@
                                 {{ site.app_description }}
                             </p>
                         </div> -->
-                    </div>
 
                         <div class="downloadButtonsContainer">
                             {% if site.playstore_link %}
@@ -83,14 +82,15 @@
                             {% endif %}
                             <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
                         </div>
-                
+                    </div>
+
                     <!-- <div class="appInfo">
                         
                     </div> -->
-                    {% include features.html %}
+                    <!-- {% include features.html %}
                     {% include footer.html %}
                     {% include appstoreimages.html %}
-                </div>
+                </div> -->
             </div>
         </div>
 </body>
