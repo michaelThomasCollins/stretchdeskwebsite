@@ -39,6 +39,7 @@
 }
 .rowContainer {					// Set up the container for the site content
 	display: grid;
+	align-items: center;
 	align-content: center;
 	justify-content: center;
 	margin: auto;
