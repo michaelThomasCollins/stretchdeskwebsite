@@ -4,24 +4,20 @@
 {% include head.html %}
 
 <body>
-    <div class="imageWrapper">
+    <div class="imageWrapperPromo">
         <div class="headerBackground">
             <div class="includeHeaderStuff">
                     {% include header.html %}
                 </div>
-                <div class="downloadButtonsContainer" style="padding: 15px;">
-                    {% if site.playstore_link %}
-                        <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
-                    {% endif %}
-                    <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
-                </div>
             <div class="rowContainer">
+                <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
+                <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
                 <h1 class="appName" style="padding-bottom: 15px;" >How To Redeem</h1>
                 <a id="appleurl" href="https://apps.apple.com/gb/app/stretchdesk/id6503408180" style="align-items: center; justify-content: center; flex-direction: column;	display: flex;">
-                <img width="60" height="60"  src="../assets/AppleAppStore.png">
-                <p class="appDescription" style="padding-bottom: 45px;  padding-top: 15px;">Redeem Here!</p>
+                <img width="75" height="75"  src="../assets/AppleAppStore.png">
+                <p class="appDescription" style="padding-bottom: 45px;  padding-top: 15px;">Click Here!</p>
             </a>
-                            <img  width="60" height="60" src="../assets/PlayStore.webp">
+                            <img  width="75" height="75" src="../assets/PlayStore.webp">
                             <p style="padding-bottom: 15px; padding-top: 15px;" class="appDescription" id="gpcode" >
                                 Enter Code Like Below:
                             </p>
