@@ -32,6 +32,14 @@
 	background-color: #fff;
 }
 
+.includeHeaderStuff {
+	display: grid;
+	max-width: $content-width;
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
 .row {
 	margin: auto;
 	padding-left: 15px;
