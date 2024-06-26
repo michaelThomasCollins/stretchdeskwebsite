@@ -8,7 +8,7 @@
 					</clipPath>
 				</defs>
 			</svg>
-			{% if page.url = '/promo' %}
+			{% if page.url == '/promo' %}
 			<a href="../" target="_self"><img class="headerIconPromo" src="{{ site.app_icon | relative_url }}"></a>
 			{% elsif page.url != '/' %}
 				<a href="../" target="_self"><img class="headerIcon" src="{{ site.app_icon | relative_url }}"></a>
