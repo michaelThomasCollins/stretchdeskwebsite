@@ -39,9 +39,13 @@
 }
 .rowContainer {					// Set up the container for the site content
 	display: grid;
+	align-content: center;
+	justify-content: center;
 	margin: auto;
 	padding-left: 15px;
 	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15 px;
 	// grid-template-columns: repeat(12, 1fr);
 	// grid-template-rows: 115px 876px auto auto;
 	// grid-column-gap: 30px;
